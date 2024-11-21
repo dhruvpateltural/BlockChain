@@ -1,0 +1,32 @@
+=============== Oct 21, 2024 (IST) ===============
+12:18:52.817268 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:18:52.826219 db@open opening
+12:18:52.833423 version@stat F·[] S·0B[] Sc·[]
+12:18:52.836487 db@janitor F·2 G·0
+12:18:52.837002 db@open done T·10.7826ms
+12:18:52.846692 db@close closing
+12:18:52.846692 db@close done T·0s
+=============== Oct 21, 2024 (IST) ===============
+12:26:10.295974 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:26:10.296889 version@stat F·[] S·0B[] Sc·[]
+12:26:10.296889 db@open opening
+12:26:10.297535 journal@recovery F·1
+12:26:10.309389 journal@recovery recovering @1
+12:26:10.310927 memdb@flush created L0@2 N·10 S·565B "H/\xb1..\xf0\x18\x1a,v3":"r\x00\x00..\xf0\x18\x1a,v5"
+12:26:10.325366 version@stat F·[1] S·565B[565B] Sc·[0.25]
+12:26:10.335690 db@janitor F·3 G·0
+12:26:10.335690 db@open done T·38.8016ms
+13:47:24.600015 db@close closing
+13:47:24.600015 db@close done T·715.5µs
+=============== Oct 26, 2024 (IST) ===============
+10:55:15.185524 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+10:55:15.200945 version@stat F·[1] S·565B[565B] Sc·[0.25]
+10:55:15.200945 db@open opening
+10:55:15.200945 journal@recovery F·1
+10:55:15.206700 journal@recovery recovering @3
+10:55:15.218979 memdb@flush created L0@5 N·728 S·40KiB "\x04\xe0\xe8..W\x87$,v736":"\xeaO\xec..\xe8F\\,v737"
+10:55:15.226550 version@stat F·[2] S·41KiB[41KiB] Sc·[0.50]
+10:55:15.232811 db@janitor F·4 G·0
+10:55:15.232811 db@open done T·31.8654ms
+11:25:52.232270 db@close closing
+11:25:52.232823 db@close done T·553µs

@@ -1,3 +1,7 @@
+Download Folder in Desktop Only
+Open Folder
+C:\Users\dhruv\OneDrive\Desktop\private-chain
+run geth
 geth --datadir=./chaindata/
 
 Open New Terminal

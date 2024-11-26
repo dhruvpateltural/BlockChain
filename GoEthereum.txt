@@ -1,0 +1,27 @@
+geth --datadir=./chaindata/
+
+Open New Terminal
+ipc:\\.\geth.ipc
+
+eth accounts
+eth.accounts
+
+new Account
+personal.newAccount()
+
+start mining
+miner.start()
+
+stop mining 
+miner.stop()
+
+get balance
+eth.getBalance(eth.accouts[0])
+eth.getBalance(eth.accouts[1])
+
+send Transaction
+eth.sendTransaction({from: eth.coinbase, to:eth.accounts[1], value: web3.toWei(10, "ether")})
+
+get Latest Block
+eth.getBlock(“latest”)
+

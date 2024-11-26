@@ -1,5 +1,6 @@
+Download Folder in Desktop Only
 Open Folder 
-
+C:\Users\dhruv\OneDrive\Desktop\blockchain-toolkit
 Compile Truffle.
 truffle compile
 

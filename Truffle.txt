@@ -1,0 +1,7 @@
+Open Folder 
+
+Compile Truffle.
+truffle compile
+
+Run Truffle
+truffle migrate

@@ -4,6 +4,9 @@ C:\Users\dhruv\OneDrive\Desktop\private-chain
 run geth
 geth --datadir=./chaindata/
 
+To write Genesis Block
+geth --datadir=./chaindata/ init ./genesis.json
+
 Open New Terminal
 ipc:\\.\geth.ipc
 
